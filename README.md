@@ -1,6 +1,5 @@
 # Table of Contents
 - [Introduction](#introduction)
-	- [Changelog](Changelog.md)
 - [Installation](#installation)
 - [Usage](#usage)
 - [References](#references)
