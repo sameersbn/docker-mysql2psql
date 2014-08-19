@@ -6,4 +6,4 @@ RUN apt-get update && \
 			ruby-dev python-dev libmysqlclient-dev libpq-dev && \
 		gem install mysql2psql && \
 		pip install py-mysql2pgsql && \
-		apt-get clean # 20140519
+		apt-get clean && rm -rf /var/lib/apt/lists/* # 20140818
