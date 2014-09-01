@@ -1,8 +1,8 @@
-FROM sameersbn/ubuntu:12.04.20140818
+FROM sameersbn/ubuntu:14.04.20140818
 MAINTAINER sameer@damagehead.com
 
 RUN apt-get update && \
-    apt-get install -y make rubygems ruby python-pip \
+    apt-get install -y make ruby python-pip \
       ruby-dev python-dev libmysqlclient-dev libpq-dev && \
     gem install mysql2psql && \
     pip install py-mysql2pgsql && \
