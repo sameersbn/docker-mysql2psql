@@ -2,8 +2,9 @@ FROM sameersbn/debian:jessie.20140918
 MAINTAINER sameer@damagehead.com
 
 RUN apt-get update \
- && apt-get install -y gcc make ruby python-pip libc6-dev \
-      ruby-dev python-dev libmysqlclient-dev libpq-dev \
- && gem install --no-document mysql2psql \
- && pip install py-mysql2pgsql \
+ && apt-get install -y ruby python-pip libmysqlclient18 libpq5 libyaml-0-2 \
  && rm -rf /var/lib/apt/lists/* # 20140918
+
+ADD install /install
+RUN chmod 755 /install
+RUN /install
