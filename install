@@ -8,7 +8,7 @@ apt-get update
 apt-get install -y gcc make libc6-dev ruby-dev python-dev libmysqlclient-dev libpq-dev libyaml-dev
 
 # install mysql2psql
-gem install --no-document mysql2psql
+gem install --no-ri --no-rdoc mysql2psql
 
 # install py-mysql2pgsql
 pip install py-mysql2pgsql
