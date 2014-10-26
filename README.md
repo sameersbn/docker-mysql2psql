@@ -1,11 +1,21 @@
 # Table of Contents
 - [Introduction](#introduction)
+- [Contributing](#contributing)
 - [Installation](#installation)
 - [Usage](#usage)
 - [References](#references)
 
 # Introduction
+
 Dockerfile that packages mysql2psql and py-mysql2pqsql tools.
+
+# Contributing
+
+If you find this image useful here's how you can help:
+
+- Send a Pull Request with your awesome new features and bug fixes
+- Help new users with [Issues](https://github.com/sameersbn/docker-mysql2psql/issues) they may encounter
+- Send me a tip on [Gittip](https://gittip.com/sameersbn/) or using Bitcoin at **16rDxVqJPyYAFYPLduTaSiwe7ZiY1hHqKM**
 
 # Installation
 
