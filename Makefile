@@ -1,4 +1,4 @@
 all: build
 
 build:
-	@docker build --tag=${USER}/mysql2psql .
+	@docker build --tag=quay.io/sameersbn/mysql2psql .
