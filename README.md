@@ -1,3 +1,5 @@
+[![Docker Repository on Quay.io](https://quay.io/repository/sameersbn/mysql2psql/status "Docker Repository on Quay.io")](https://quay.io/repository/sameersbn/mysql2psql)
+
 # Table of Contents
 - [Introduction](#introduction)
 - [Contributing](#contributing)
