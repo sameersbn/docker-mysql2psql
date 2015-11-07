@@ -21,10 +21,12 @@ If you find this image useful here's how you can help:
 
 # Installation
 
-Automated builds of the image are available on [Quay.io](https://quay.io/repository/sameersbn/mysql2psql) and is the recommended method of installation.
+Automated builds of the image are available on [Dockerhub](https://hub.docker.com/r/sameersbn/mysql2psql) and is the recommended method of installation.
+
+> **Note**: Builds are also available on [Quay.io](https://quay.io/repository/sameersbn/mysql2psql)
 
 ```bash
-docker pull quay.io/sameersbn/mysql2psql:latest
+docker pull sameersbn/mysql2psql:latest
 ```
 
 Alternately you can build the image yourself.
@@ -38,7 +40,7 @@ docker build --tag="$USER/mysql2psql" .
 # Usage
 
 ```
-docker run -i -t --rm quay.io/sameersbn/mysql2psql:latest bash
+docker run -i -t --rm sameersbn/mysql2psql:latest bash
 ```
 
 Refer to usage instructions for:
