@@ -32,9 +32,7 @@ docker pull sameersbn/mysql2psql:latest
 Alternately you can build the image yourself.
 
 ```bash
-git clone https://github.com/sameersbn/docker-mysql2psql.git
-cd docker-mysql2psql
-docker build --tag="$USER/mysql2psql" .
+docker build -t sameersbn/mysql2psql github.com/sameersbn/docker-mysql2psql
 ```
 
 # Usage
